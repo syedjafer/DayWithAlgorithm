@@ -1,0 +1,80 @@
+<!-- Footer -->
+<footer class="footer page-footer font-small mdb-color" style="font-size: smaller;">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-2">
+        <h6 class="text-uppercase mb-4 font-weight-bold">DayWithAlgorithm</h6>
+        <p>We provide free algorithms and datastructures training for all. We are also included all 
+          the frequently asked questions in the top product based companies. Our Goal is to reach 365 blogs 
+          by August 16 2021. Will you Support US !
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-2">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <!-- <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p> -->
+    {% for item in site.navigation_header %}
+
+      {% if item.url contains '://' %}
+        {% assign url = item.url %}
+      {% else %}
+        {% assign url = item.url | relative_url %}
+      {% endif %}
+
+      <p>
+        <a href="{{ url }}">{{ item.title }}</a>
+      </p>
+    {% endfor %}
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-2">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home "></i> 85/86 Heritage Jeyendra nagar, Sembakkam</p>
+        <p>
+          <i class="fas fa-envelope"></i> contact.daywithalgorithm@gmail.com</p>
+        <p>
+          <i class="fas fa-phone"></i> +91 9176409201</p>
+        
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <div style="margin-right:40%">
+      &#169; 2020 daywithalgorithm
+    </div>
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->

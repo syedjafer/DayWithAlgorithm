@@ -1,0 +1,12 @@
+<nav class="nav  nav--categories">
+  <ul class="list  list--categories">
+    {% for item in site.categories %}
+    {% assign category_name = item | first %}
+    {% if category_name != "Events" %}
+      <li class="item  item--category">
+        <a href="#{{ item | first | slugify }}">{{ item | first }}</a>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
