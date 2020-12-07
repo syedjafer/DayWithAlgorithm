@@ -113,10 +113,10 @@ navigation_header:
   url: /
 - title: AlgoDS
   url: /algods/
-- title: Contests
-  url: /contests/
-- title: Events
-  url: /events/
+- title: Challenges
+  url: /challenges/
+# - title: Events
+#   url: /events/
 # - title: Youtube Tech
 #   url: /youtube-tech/
 - title: Search

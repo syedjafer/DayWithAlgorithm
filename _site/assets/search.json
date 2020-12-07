@@ -83,20 +83,6 @@
       },
     
       {
-        "title": "DWA1012 - Load Balancer and its Implementation in Django",
-        "excerpt": "Load Balancer to separate requests between various servers.\n",
-        "content": "\n",
-        "url": "//system%20design/2020/08/03/DWA1012-Load-Balancer/"
-      },
-    
-      {
-        "title": "DWA1013 - Introduction to Machine Learning and basic terms",
-        "excerpt": "Some basic terms we need to know in Machine Learning.\n",
-        "content": "\n",
-        "url": "//machine_learning/2020/08/03/DWA1013-Machine-Learning-Introduction-with-basic-terms/"
-      },
-    
-      {
         "title": "DWA1012 - Sum of Elements in a Given Range.",
         "excerpt": "Mathematical Way to Compute SUM of numbers in a given range\n",
         "content": "Consider a Problem Statement to calculate sum of numbers between the given range(a, b).\n\nSolution 1:\nFind all the numbers within the given range and sum it all together.\ndef find_sum(a, b):\n    res = 0\n    if( a &lt; b ):\n        for item in range(a, b+1):\n            res += item\n    else:\n        for item in range(b, a+1):\n            res += item\n    return res\n\n\nBut this will be O(n)\n\nSolution 2:\nUsing the mathematical approach,\n\n\n  ### S = ((β−α+1)*(α+β))/2\n\n\ndef find_sum(a, b):\n    res = ((a - b + 1)*(a+b))/2\n    return res\n\n\nThis is one of the best solution with O(1)\n",
@@ -122,13 +108,6 @@
         "excerpt": "A Design Pattern to create object without exposing the creation logic to the client.\n",
         "content": "The Factory pattern is one of the Creational design patterns.The Factory pattern is a design pattern that creates an object without exposing the creation logic to the client. It maintains the high readbility of the code and we can able to refactor it easily.\n\nFactory design pattern is a creational design pattern .\nFactory Method should be used in every situation where an application (client) depends on an interface (product) to perform a task and there are multiple concrete implementations of that interface.\n\nExample:\n\n\n  \n    Classic example: Client needs an OS \nThere are two ways of doing this. We can do it in conditional method using the if/else/for or using an another class (Factory class). Consider client is using 3 kinds of phone namely Samsung, Iphone, Nokia. We know that for samsung the os will be Android, for Iphone its IOS and for Nokia its is Windows. \nBut Instead of exposing it directly we can create an another class to give the objects required.\n  \n  \n     Your Manager in Office \nConsider your manager is a Factory Class , and you are an object. If the client asks for a python developer to your manager, he then will be searching for the candidate (Object) that is you ; and then he will be returning it to the client.\n  \n\n\nWhen to use this Pattern ?\n\nMostly in all situation we can implement this Design Pattern. The reason is simple , Increases readability, Increases Refactoring of the code, also not exposing to the client.\n\nImplementation :\n\n\n   Method 1:\n\n\n\nclass Android:\n    pass\n\nclass IOS:\n    pass\n\nclass Windows:\n    pass\n\nclass OsFactoryClass:\n    def get_os(self, mobile):\n        if( mobile == \"samsumng\" ):\n            return Android()\n        elif( mobile == \"iphone\" ):\n            return IOS()\n        elif( mobile == \"nokia\" ):\n            return Windows()\n\nos_obj = OsFactoryClass()\nos = os_obj.get_os(\"samsung\") # Android object will be returned.\n\n\n\n",
         "url": "//designpatterns/2020/09/08/DWA1016-Factory-Design-Pattern/"
-      },
-    
-      {
-        "title": "DWA1017 - Introduction to Redis and Basic Functionalities.",
-        "excerpt": "A Simple Yet Powerfull Cache DB to Increase the response time of the requests.\n",
-        "content": "\n",
-        "url": "//database/2020/09/08/DWA1017-Introduction-to-Redis-and-basic-functionalities/"
       },
     
       {
