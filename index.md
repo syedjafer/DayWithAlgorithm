@@ -22,8 +22,8 @@ This site is been dedicated to learn and explore Computer algorithms.
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Algo and DS</h5>
-        <p class="card-text" style="text-align:justify,text-justify:inter-word">Need to Learn Algorithms and Data Structures ?</p>
-        <a href="/algods/" class="btn btn-primary">AlgoDS</a>
+        <p class="card-text" style="text-align:justify,text-justify:inter-word">Need to Learn Algorithms, Data Structures and Coding ?</p>
+        <a href="/algodscode/" class="btn btn-primary">AlgoDsCode</a>
       </div>
     </div>
   </div>
