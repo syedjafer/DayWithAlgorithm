@@ -1,8 +1,8 @@
-const version = '20201207034400';
+const version = '20210117132218';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/designpatterns/2020/09/09/DWA1018-Abstract-Factory-Design-Pattern/","/designpatterns/2020/09/08/DWA1016-Factory-Design-Pattern/","/data%20structures/2020/08/18/DWA1015-Implementing-Copy-method-in-singly-linked-list/","/data%20structures/2020/08/17/DWA1014-Reversing-a-Linked-Lists/","/interview/2020/08/16/DWA1012-Sum-of-elements-in-a-given-range/","/designpatterns/2020/06/09/DWA1011-Singleton-Design-Pattern/","/algorithm/2020/05/25/DWA1010-Counting-Sort-Algorithm/","/algorithm/2020/05/23/DWA1008-Selection-Sort/","/algorithm/2020/05/23/Algorithm-for-calculating-sqrt-of-a-number-without-built-in-function/","/algorithm/2020/05/22/DWA-1006-Insertion-Sort/","/algods/","/categories/","/contests/","/events/","/blog/","/","/manifest.json","/offline/","/assets/search.json","/search/","/assets/styles.css","/thanks/","/youtube-tech/","/redirects.json","/sitemap.xml","/robots.txt","/blog/page2/","/blog/page3/","/blog/page4/","/feed.xml","/assets/logos/logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/designpatterns/2020/09/09/DWA1018-Abstract-Factory-Design-Pattern/","/designpatterns/2020/09/08/DWA1016-Factory-Design-Pattern/","/data%20structures/2020/08/18/DWA1015-Implementing-Copy-method-in-singly-linked-list/","/data%20structures/2020/08/17/DWA1014-Reversing-a-Linked-Lists/","/coding/2020/08/16/DWA1012-Sum-of-elements-in-a-given-range/","/designpatterns/2020/06/09/DWA1011-Singleton-Design-Pattern/","/algorithm/2020/05/25/DWA1010-Counting-Sort-Algorithm/","/algorithm/2020/05/23/DWA1008-Selection-Sort/","/algorithm/2020/05/23/Algorithm-for-calculating-sqrt-of-a-number-without-built-in-function/","/algorithm/2020/05/22/DWA-1006-Insertion-Sort/","/algodscode/","/coding/","/blog/","/","/manifest.json","/offline/","/assets/search.json","/search/","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/blog/page2/","/blog/page3/","/blog/page4/","/feed.xml","/assets/logos/logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

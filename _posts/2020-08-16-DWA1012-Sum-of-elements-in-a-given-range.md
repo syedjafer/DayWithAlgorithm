@@ -1,7 +1,7 @@
 ---
 title: DWA1012 - Sum of Elements in a Given Range.
 categories:
-- Interview
+- Coding
 excerpt: |
   Mathematical Way to Compute SUM of numbers in a given range
 # feature_image: "https://picsum.photos/2560/600?image=733"

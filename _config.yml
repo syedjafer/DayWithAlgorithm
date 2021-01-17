@@ -111,14 +111,8 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: AlgoDS
-  url: /algods/
-- title: Challenges
-  url: /challenges/
-# - title: Events
-#   url: /events/
-# - title: Youtube Tech
-#   url: /youtube-tech/
+- title: AlgoDsCode
+  url: /algodscode/
 - title: Search
   url: /search/
 
